@@ -1,0 +1,16 @@
+package xsltreport;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
+public class Gmail
+{
+	public static void main(String[] args)
+	{
+		WebDriver driver;
+		driver=new FirefoxDriver();
+		driver.get("http://gmail.com");
+		
+	}
+
+}
